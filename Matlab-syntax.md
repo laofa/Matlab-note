@@ -89,4 +89,6 @@ subplot是将多个图画到一个平面上的工具。其中，m表示是图排
 		[x y] = find(A == max(max(A)));  
 		[x y] = find(A == min(min(A)));
 
-
+### 14.im2double和double的区别
+double(A)是将A直接转换成double类型，数值上没有变化。
+im2double(A)是将A转换成double类型的同时进行归一化都(0, 1)。
