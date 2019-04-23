@@ -1,2 +1,2 @@
-# Matlab-note
+# matlab-note
 Just note
